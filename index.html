@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery | Ajax</title>
+    <script src="jquery-3.2.1.min.js"></script> 
+    <!-- <script> 
+    </script> -->
+    <script src="yeniscript.js"></script> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+	
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h3 class="slogan" id="baslik">Jquery İlk Ders</h3>
+            <input type="text" id="arama" placeholder="Arama Alanı" class="form-control"> 
+            <br>    
+            <!-- <a href="" id="link"> Link</a> -->
+        </div>
+        <div id="icerik">
+
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <input type="text" id="name" class="form-control" placeholder="isim">
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="url" class="form-control" placeholder="url">
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-primary">
+                    Ekle
+                </button>
+                <button class="btn btn-success">
+                    Güncelle
+                </button>
+            </div>
+        </div>
+        <div class="row mb-5 pb-5">
+            <div class="col-md-12">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td>Id</td>
+                            <td>İsim</td>
+                            <td>Url</td>
+                            <td>İşlemler</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tablo-icerik"> 
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
